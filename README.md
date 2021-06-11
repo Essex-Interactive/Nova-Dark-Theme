@@ -31,7 +31,7 @@ Installation
 
 First use composer to pull in the project:
 
-`composer require david-griffiths/nova-dark-theme`
+`composer require essex-interactive/nova-dark-theme`
 
 (Remember that you can install multiple themes with Nova. So you don't have to choose between this and another.)
 
