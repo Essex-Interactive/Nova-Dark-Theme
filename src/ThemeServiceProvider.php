@@ -1,6 +1,6 @@
 <?php
 
-namespace DavidGriffiths\NovaDarkTheme;
+namespace EssexInteractive\NovaDarkTheme;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
@@ -15,10 +15,10 @@ class ThemeServiceProvider extends ServiceProvider
      * @var array
      */
     protected $commands = [
-        'DavidGriffiths\NovaDarkTheme\Commands\AddSwitch',
-        'DavidGriffiths\NovaDarkTheme\Commands\RemoveSwitch',
-        'DavidGriffiths\NovaDarkTheme\Commands\On',
-        'DavidGriffiths\NovaDarkTheme\Commands\Off',
+        'EssexInteractive\NovaDarkTheme\Commands\AddSwitch',
+        'EssexInteractive\NovaDarkTheme\Commands\RemoveSwitch',
+        'EssexInteractive\NovaDarkTheme\Commands\On',
+        'EssexInteractive\NovaDarkTheme\Commands\Off',
     ];
 
     /**
